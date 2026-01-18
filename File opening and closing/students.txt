@@ -1,1 +1,122 @@
-twin princesses,44
+Python Notes: Integers and Functions
+1. Integers in Python
+
+An integer is a whole number. Integers can be:
+
+Positive (e.g., 5, 10)
+
+Negative (e.g., -3, -20)
+
+Zero (0)
+
+In Python, integers belong to the data type called int.
+Python can automatically recognize integers when you assign them to a variable.
+
+2. Integer Operations
+
+Python allows many mathematical operations with integers:
+
+Addition: combines two numbers.
+
+Subtraction: finds the difference between numbers.
+
+Multiplication: repeated addition.
+
+Division: divides numbers and returns a decimal value.
+
+Floor Division: divides numbers and removes the decimal part.
+
+Modulus: returns the remainder after division.
+
+Exponentiation: raises a number to a power.
+
+These operations are commonly used in calculations, logic, and problem solving.
+
+3. Type Conversion (Casting)
+
+Type conversion means changing one data type into another.
+
+Common conversions:
+
+String to integer: useful when working with user input.
+
+Integer to string: useful when displaying numbers with text.
+
+Python provides built-in functions like int() and str() for this purpose.
+
+4. Functions in Python
+
+A function is a reusable block of code designed to perform a specific task.
+
+Why functions are important:
+
+Reduce repetition
+
+Make code easier to read
+
+Improve organization
+
+Make debugging easier
+
+A function runs only when it is called.
+
+5. Functions with Parameters
+
+Functions can receive parameters, which are values passed into the function.
+
+Parameters allow functions to:
+
+Work with different data
+
+Be more flexible and reusable
+
+When a function is called, the provided values are called arguments.
+
+6. Return Values
+
+A function can send data back using a return statement.
+
+Returned values can be:
+
+Stored in variables
+
+Used in calculations
+
+Printed or passed to other functions
+
+Some functions may return multiple values at once.
+
+7. Default Parameters
+
+Functions can have default parameter values.
+
+If no argument is provided when calling the function, the default value is used.
+This makes functions easier to use and prevents errors.
+
+8. Integers Inside Functions
+
+Integers are often used inside functions for:
+
+Calculations
+
+Conditions
+
+Checking even or odd numbers
+
+Logical decisions
+
+Functions can process integers and return results such as True or False.
+
+Summary
+
+Integers are whole numbers used for math and logic.
+
+Python supports many integer operations.
+
+Type conversion allows switching between data types.
+
+Functions organize and reuse code.
+
+Parameters and return values make functions flexible.
+
+Integers and functions together form the foundation of Python programming.
