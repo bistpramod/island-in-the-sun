@@ -1,7 +1,3 @@
-// index.js
-// tiny habit tracker api
-// made with node + express
-// feels human, simple, clean
 
 const express = require('express');
 const fs = require('fs');
@@ -75,28 +71,7 @@ app.post('/habits', (req, res) => {
   });
 });
 
-// mark habit complete
-app.patch('/habits/:id', (req, res) => {
-  const habits = readHabits();
 
-  const habit = habits.find(h => h.id == req.params.id);
-
-  if (!habit) {
-    return res.status(404).json({
-      error: 'Habit not found'
-    });
-  }
-
-  habit.completed = true;
-  habit.streak += 1;
-
-  saveHabits(habits);
-
-  res.json({
-    message: 'Habit completed 🎉',
-    data: habit
-  });
-});
 
 // delete habit
 app.delete('/habits/:id', (req, res) => {
